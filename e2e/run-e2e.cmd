@@ -1,0 +1,1 @@
+call node ./node_modules/protractor/bin/protractor protractor.conf.js --suite=test --params.reportName=TestReport

@@ -1,0 +1,32 @@
+{
+  "name": "E2E-Project",
+  "version": "1.0.0",
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-run": "webdriver-manager start",
+    "webdriver-clean": "webdriver-manager clean",
+    "e2e": "node ./node_modules/protractor/bin/protractor protractor.conf.js --suite=test --params.reportName=TestReport"
+  },
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "moment": "^2.22.1",
+    "nodemailer": "^4.6.4",
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^4.2.1",
+    "cucumber-pretty": "^1.4.3",
+    "grunt": "^1.0.2",
+    "grunt-cli": "^1.2.0",
+    "grunt-protractor-runner": "^5.0.0",
+    "protractor": "^5.3.1",
+    "protractor-cucumber-framework": "^4.2.0",
+    "protractor-flake": "^3.3.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.7.0",
+    "uncaught": "0.0.5",
+    "user-info": "^1.0.0",
+    "webdriver-manager": "^12.0.6"
+  }
+}
